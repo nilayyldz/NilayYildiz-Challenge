@@ -22,7 +22,8 @@ export const createHero = (
       tx.pure.string(imageUrl),
       tx.pure.u64(BigInt(power))      
     ]
-  });
+  }
+);
 
   return tx;
 };
